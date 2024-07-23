@@ -9,7 +9,7 @@ source:
   sha256: 6fc69c01688c9458a57eb9a1664c9aba372ccda420a02bf4429fe610e7e7d591
 
 build:
-  number: 1009
+  number: 1010
   skip: True  # [win and vc<14]
   detect_binary_files_with_prefix: True
 
@@ -40,7 +40,7 @@ about:
     pkg-config is a script to make putting together all the build
     flags when compiling/linking a lot easier.
   doc_url: https://people.freedesktop.org/~dbn/pkg-config-guide.html
-  dev_url: https://cgit.freedesktop.org/pkg-config
+  dev_url: https://gitlab.freedesktop.org/pkg-config/pkg-config
   doc_source_url:
 
 extra:
